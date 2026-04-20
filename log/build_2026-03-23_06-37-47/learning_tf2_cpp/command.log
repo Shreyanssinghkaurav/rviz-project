@@ -1,0 +1,4 @@
+Invoking command in '/home/ubuntu/ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=PES1UG23CS561:\w$ /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/learning_tf2_cpp -- -j4 -l4
+Invoked command in '/home/ubuntu/ros2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=PES1UG23CS561:\w$ /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/learning_tf2_cpp -- -j4 -l4
+Invoking command in '/home/ubuntu/ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=PES1UG23CS561:\w$ /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/learning_tf2_cpp
+Invoked command in '/home/ubuntu/ros2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=PES1UG23CS561:\w$ /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/learning_tf2_cpp

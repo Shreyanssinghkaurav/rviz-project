@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_ws/src/ros2-slam-auto-navigation/launch/rsp.launch.py

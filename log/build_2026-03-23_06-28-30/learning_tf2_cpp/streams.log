@@ -1,0 +1,72 @@
+[0.009s] Invoking command in '/home/ubuntu/ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=PES1UG23CS561:\w$ /usr/bin/cmake /home/ubuntu/ros2_ws/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/learning_tf2_cpp
+[0.134s] -- The C compiler identification is GNU 11.4.0
+[0.234s] -- The CXX compiler identification is GNU 11.4.0
+[0.253s] -- Detecting C compiler ABI info
+[0.304s] -- Detecting C compiler ABI info - done
+[0.310s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.311s] -- Detecting C compile features
+[0.312s] -- Detecting C compile features - done
+[0.315s] -- Detecting CXX compiler ABI info
+[0.384s] -- Detecting CXX compiler ABI info - done
+[0.390s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.391s] -- Detecting CXX compile features
+[0.391s] -- Detecting CXX compile features - done
+[0.399s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.522s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.615s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.666s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.671s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.681s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.693s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.710s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.760s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.802s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.805s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.883s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.909s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.954s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.965s] -- Looking for pthread.h
+[1.029s] -- Looking for pthread.h - found
+[1.029s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.091s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.092s] -- Found Threads: TRUE  
+[1.135s] -- Found tf2: 0.25.19 (/opt/ros/humble/share/tf2/cmake)
+[1.159s] -- Found tf2_ros: 0.25.19 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.260s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[1.273s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.350s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.350s] -- Configured cppcheck include dirs: 
+[1.350s] -- Configured cppcheck exclude dirs and/or files: 
+[1.351s] -- Added test 'lint_cmake' to check CMake code style
+[1.352s] -- Added test 'uncrustify' to check C / C++ code style
+[1.352s] -- Configured uncrustify additional arguments: 
+[1.352s] -- Added test 'xmllint' to check XML markup files
+[1.353s] -- Configuring done
+[1.362s] -- Generating done
+[1.366s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/learning_tf2_cpp
+[1.374s] Invoked command in '/home/ubuntu/ros2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=PES1UG23CS561:\w$ /usr/bin/cmake /home/ubuntu/ros2_ws/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/learning_tf2_cpp
+[1.377s] Invoking command in '/home/ubuntu/ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=PES1UG23CS561:\w$ /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/learning_tf2_cpp -- -j4 -l4
+[1.408s] [ 50%] [32mBuilding CXX object CMakeFiles/static_turtle_tf2_broadcaster.dir/src/static_turtle_tf2_broadcaster.cpp.o[0m
+[4.865s] [100%] [32m[1mLinking CXX executable static_turtle_tf2_broadcaster[0m
+[5.030s] [100%] Built target static_turtle_tf2_broadcaster
+[5.039s] Invoked command in '/home/ubuntu/ros2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=PES1UG23CS561:\w$ /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/learning_tf2_cpp -- -j4 -l4
+[5.045s] Invoking command in '/home/ubuntu/ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=PES1UG23CS561:\w$ /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/learning_tf2_cpp
+[5.049s] -- Install configuration: ""
+[5.050s] -- Installing: /home/ubuntu/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster
+[5.051s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster" to ""
+[5.051s] -- Installing: /home/ubuntu/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[5.051s] -- Installing: /home/ubuntu/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[5.051s] -- Installing: /home/ubuntu/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[5.051s] -- Installing: /home/ubuntu/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[5.051s] -- Installing: /home/ubuntu/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[5.059s] -- Installing: /home/ubuntu/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[5.059s] -- Installing: /home/ubuntu/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[5.060s] -- Installing: /home/ubuntu/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[5.060s] -- Installing: /home/ubuntu/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[5.060s] -- Installing: /home/ubuntu/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[5.060s] -- Installing: /home/ubuntu/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[5.061s] -- Installing: /home/ubuntu/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[5.061s] -- Installing: /home/ubuntu/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[5.061s] -- Installing: /home/ubuntu/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[5.061s] -- Installing: /home/ubuntu/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[5.063s] Invoked command in '/home/ubuntu/ros2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=PES1UG23CS561:\w$ /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/learning_tf2_cpp

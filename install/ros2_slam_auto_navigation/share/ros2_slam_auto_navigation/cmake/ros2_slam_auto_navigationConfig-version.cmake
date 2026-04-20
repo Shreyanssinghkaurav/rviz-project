@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_ws/build/ros2_slam_auto_navigation/ament_cmake_core/ros2_slam_auto_navigationConfig-version.cmake
